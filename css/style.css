@@ -1,0 +1,116 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.navcolor{
+  background-color: #191717;
+
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.dark-grey-text{
+  color:#A9A9A9;
+}
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container-large {
+  min-height: 500px;
+}
+
+.parallax-container{
+  min-height: 600px;
+}
+.white-box { width: 300px; height: 50;  margin-left: auto; margin-right: auto;   
+  
+background: rgba(255,255,255,0.9);
+padding: 10px;
+-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-ms-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+
+  .parallax-container .section {
+    width: 100%;
+  }
+.dark-red-text{
+  color: #B22222;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #191717;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+html{
+  font-family: 'Montserrat', sans-serif;
+}
+.input-field input[type=text]:focus + label {
+ color: black;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+ border-bottom: 1px solid dark-grey-text;
+ box-shadow: 0 1px 0 0 dark-grey-text;
+}
+.input-field{
+  color: white;
+}
+.btn{
+  background-color: #191717;
+}
+.btn:visited{
+  background-color: #191717;
+}
+.btn:hover {
+  background-color: black
+}
+.btn:active{
+  background-color: yellow;
+}
+
+.card{
+  background-color: whitesmoke
+}
