@@ -225,7 +225,7 @@
 
       }
   function myFunction(){
-    var address=document.getElementById("input1").value.trim();
+    var address=document.getElementById("input1").value.toUpperCase().trim();
     var t =document.getElementById("input2").value.trim();
     var date =document.getElementById("input3").value.trim();
     var time = convertDateAndTime(date,t)
